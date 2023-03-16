@@ -7,4 +7,7 @@ let users = [
 users.map((user) => {
     let fn = user.fn + ' ' + user.ln;
     return fn;
-})
+});
+
+/* Output
+ ['Amal Dev', 'Sree Dev', 'Kannan Mon'] */
